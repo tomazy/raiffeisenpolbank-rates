@@ -1,0 +1,25 @@
+{
+  "name": "raiffeisenpolbank-rates",
+  "version": "0.0.1",
+  "description": "raiffeisenpolbank chf exchange rates micro service",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "start:dev": "nodemon --exec npm start",
+    "test": "jest"
+  },
+  "author": "tomazy",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "19.0.2",
+    "nodemon": "1.11.0",
+    "standard": "8.6.0"
+  },
+  "dependencies": {
+    "debug": "2.6.1",
+    "invariant": "2.2.2",
+    "micro": "7.0.6",
+    "qs": "6.3.1",
+    "url": "0.11.0"
+  }
+}
